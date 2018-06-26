@@ -1,12 +1,13 @@
 <!DOCTYPE html>
-<html xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout">
+<html>
 <head>
   <title>Layout page</title>
+  <link th:href="@{/webjars/bootstrap/4.0.0/css/bootstrap.min.css}" rel="stylesheet" media="screen" />
   <script src="common-script.js"></script>
 </head>
 <body>
   <header>
-    <h1>My website ---</h1>
+    <h1>My website</h1>
   </header>
   <section layout:fragment="content">
     <p>Page content goes here</p>
